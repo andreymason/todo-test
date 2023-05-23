@@ -29,8 +29,8 @@ This is a Django-based ToDo list app that allows you to manage tasks with variou
    python manage.py runserver
 7. Access the application in your web browser at http://localhost:8000.
 
-###Usage###
-##API Endpoints##
+### Usage
+## API Endpoints
 The app provides the following API endpoints:
 
 GET /tasks/: Retrieve a list of tasks.
@@ -47,7 +47,7 @@ DELETE /tasks/{task_id}/: Delete a task.
 
 You can use the API endpoints to interact with the app programmatically.
 
-##Web Interface##
+## Web Interface
 The app also provides a web interface to manage tasks. To access it, follow these steps:
 
 Open your web browser.
@@ -63,10 +63,10 @@ GET /tasks/?sort_by=creation_time: Sort tasks by creation time.
 GET /tasks/?sort_by=priority: Sort tasks by priority.
 Feel free to customize the filtering and sorting options as per your requirements.
 
-##Authentication and Permissions##
+## Authentication and Permissions
 To restrict access and manage permissions, you can implement authentication and authorization mechanisms in your Django project. This README assumes an open and public access setup, but it's highly recommended to secure the app based on your deployment requirements.
 
-##Contributing##
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create a new issue or submit a pull request.
 
 
