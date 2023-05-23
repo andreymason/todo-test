@@ -34,11 +34,17 @@ This is a Django-based ToDo list app that allows you to manage tasks with variou
 The app provides the following API endpoints:
 
 GET /tasks/: Retrieve a list of tasks.
+
 POST /tasks/: Create a new task.
+
 GET /tasks/{task_id}/: Retrieve details of a specific task.
+
 PUT /tasks/{task_id}/: Update a task.
+
 PATCH /tasks/{task_id}/mark_as_done/: Mark a task as completed.
+
 DELETE /tasks/{task_id}/: Delete a task.
+
 You can use the API endpoints to interact with the app programmatically.
 
 ##Web Interface
