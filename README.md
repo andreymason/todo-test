@@ -51,16 +51,25 @@ You can use the API endpoints to interact with the app programmatically.
 The app also provides a web interface to manage tasks. To access it, follow these steps:
 
 Open your web browser.
+
 Navigate to http://localhost:8000/tasks/ to view the list of tasks.
+
 Use the provided features to create, edit, delete, and mark tasks as completed.
+
 Filtering and Sorting
+
 The API endpoints and web interface support various filtering and sorting options:
 
 GET /tasks/?status=done: Filter tasks by status (done or todo).
+
 GET /tasks/?priority=3: Filter tasks by priority (1-5).
+
 GET /tasks/?title=search: Filter tasks by title (full-text search).
+
 GET /tasks/?sort_by=creation_time: Sort tasks by creation time.
+
 GET /tasks/?sort_by=priority: Sort tasks by priority.
+
 Feel free to customize the filtering and sorting options as per your requirements.
 
 ## Authentication and Permissions
