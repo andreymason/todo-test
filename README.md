@@ -7,11 +7,11 @@ This is a Django-based ToDo list app that allows you to manage tasks with variou
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-project.git
+   git clone https://github.com/andreymason/todo-test.git
 
 2. Navigate to the project directory:
    ```bash
-   cd todo-project
+   cd todo
 
 3. Set up a virtual environment (recommended) and activate it:
    ```bash
