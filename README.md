@@ -56,7 +56,7 @@ Navigate to http://localhost:8000/tasks/ to view the list of tasks.
 
 Use the provided features to create, edit, delete, and mark tasks as completed.
 
-# Filtering and Sorting
+### Filtering and Sorting
 
 The API endpoints and web interface support various filtering and sorting options:
 
